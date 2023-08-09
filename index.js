@@ -44,6 +44,7 @@ app.get('/magic/', (req,res) => {
 app.get('/magic/:question', (req,res)=>{
     // res.send(`<h1>
     // Ask a question then click to see your fortune
+    // <br/>
     // ${req.params.question}
     // </h1>
     // <p>${fortune[randomNum(0, fortune.length)]}</p>
